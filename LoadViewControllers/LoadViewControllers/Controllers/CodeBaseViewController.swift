@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CodeBaseViewController.swift
 //  LoadViewControllers
 //
 //  Created by Bruno Silva on 19/07/24.
@@ -7,13 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class CodeBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-
