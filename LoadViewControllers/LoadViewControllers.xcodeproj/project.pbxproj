@@ -12,8 +12,8 @@
 		7E239F7C2C4B398C007C3269 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E239F7B2C4B398C007C3269 /* Base */; };
 		7E239F7E2C4B398D007C3269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E239F7D2C4B398D007C3269 /* Assets.xcassets */; };
 		7E239F812C4B398D007C3269 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E239F802C4B398D007C3269 /* Base */; };
-		7E239F8C2C4B398D007C3269 /* LoadViewControllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E239F8B2C4B398D007C3269 /* LoadViewControllersTests.swift */; };
 		7E239FA82C4B3E2D007C3269 /* CodeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E239FA72C4B3E2D007C3269 /* CodeBaseViewController.swift */; };
+		7E7EDC0B2C4C258C0008CB2C /* CodeBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7EDC0A2C4C258C0008CB2C /* CodeBaseViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +35,8 @@
 		7E239F802C4B398D007C3269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E239F822C4B398D007C3269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E239F872C4B398D007C3269 /* LoadViewControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadViewControllersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E239F8B2C4B398D007C3269 /* LoadViewControllersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewControllersTests.swift; sourceTree = "<group>"; };
 		7E239FA72C4B3E2D007C3269 /* CodeBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseViewController.swift; sourceTree = "<group>"; };
+		7E7EDC0A2C4C258C0008CB2C /* CodeBaseViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 		7E239F8A2C4B398D007C3269 /* LoadViewControllersTests */ = {
 			isa = PBXGroup;
 			children = (
-				7E239F8B2C4B398D007C3269 /* LoadViewControllersTests.swift */,
+				7E7EDC092C4C257A0008CB2C /* Controllers */,
 			);
 			path = LoadViewControllersTests;
 			sourceTree = "<group>";
@@ -117,6 +117,14 @@
 			isa = PBXGroup;
 			children = (
 				7E239FA72C4B3E2D007C3269 /* CodeBaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7E7EDC092C4C257A0008CB2C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E7EDC0A2C4C258C0008CB2C /* CodeBaseViewControllerTests.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -232,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E239F8C2C4B398D007C3269 /* LoadViewControllersTests.swift in Sources */,
+				7E7EDC0B2C4C258C0008CB2C /* CodeBaseViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
