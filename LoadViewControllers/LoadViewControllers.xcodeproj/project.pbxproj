@@ -78,8 +78,7 @@
 		7E239F732C4B398C007C3269 /* LoadViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				7E239F742C4B398C007C3269 /* AppDelegate.swift */,
-				7E239F762C4B398C007C3269 /* SceneDelegate.swift */,
+				7E239FA42C4B3A3C007C3269 /* AppDelegate */,
 				7E239F782C4B398C007C3269 /* ViewController.swift */,
 				7E239F7A2C4B398C007C3269 /* Main.storyboard */,
 				7E239F7D2C4B398D007C3269 /* Assets.xcassets */,
@@ -95,6 +94,15 @@
 				7E239F8B2C4B398D007C3269 /* LoadViewControllersTests.swift */,
 			);
 			path = LoadViewControllersTests;
+			sourceTree = "<group>";
+		};
+		7E239FA42C4B3A3C007C3269 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7E239F742C4B398C007C3269 /* AppDelegate.swift */,
+				7E239F762C4B398C007C3269 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
