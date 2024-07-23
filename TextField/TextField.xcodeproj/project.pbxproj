@@ -13,7 +13,7 @@
 		7E3AD6BC2C4F20F20036222B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AD6BB2C4F20F20036222B /* Base */; };
 		7E3AD6BE2C4F20F30036222B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AD6BD2C4F20F30036222B /* Assets.xcassets */; };
 		7E3AD6C12C4F20F30036222B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AD6C02C4F20F30036222B /* Base */; };
-		7E3AD6CC2C4F20F40036222B /* TextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AD6CB2C4F20F40036222B /* TextFieldTests.swift */; };
+		7E3AD6E62C4F28E70036222B /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AD6E52C4F28E70036222B /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 		7E3AD6C02C4F20F30036222B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E3AD6C22C4F20F30036222B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3AD6C72C4F20F40036222B /* TextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E3AD6CB2C4F20F40036222B /* TextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTests.swift; sourceTree = "<group>"; };
+		7E3AD6E52C4F28E70036222B /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 		7E3AD6CA2C4F20F40036222B /* TextFieldTests */ = {
 			isa = PBXGroup;
 			children = (
-				7E3AD6CB2C4F20F40036222B /* TextFieldTests.swift */,
+				7E3AD6E52C4F28E70036222B /* ViewControllerTests.swift */,
 			);
 			path = TextFieldTests;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3AD6CC2C4F20F40036222B /* TextFieldTests.swift in Sources */,
+				7E3AD6E62C4F28E70036222B /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
