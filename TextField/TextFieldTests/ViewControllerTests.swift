@@ -10,6 +10,15 @@ final class ViewControllerTests: XCTestCase {
         XCTAssertNotNil(sut.password, "The password textField should be connected")
     }
 
+    func test_usernameField_attributesShouldBeSet() {
+        let sut = loadStoryboard()
+        let textField = sut.username!
+
+        XCTAssertEqual(textField.textContentType, .username, "should have the right textContentType")
+        XCTAssertEqual(textField.autocorrectionType, .no, "should have the right autocorrectionType")
+        XCTAssertEqual(textField.returnKeyType, .next, "should have the right returnKeyType")
+    }
+
     // MARK: - Helpers Methods
 
     private func loadStoryboard() -> ViewController {

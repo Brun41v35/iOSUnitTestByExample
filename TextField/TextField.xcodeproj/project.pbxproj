@@ -14,6 +14,7 @@
 		7E3AD6BE2C4F20F30036222B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AD6BD2C4F20F30036222B /* Assets.xcassets */; };
 		7E3AD6C12C4F20F30036222B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AD6C02C4F20F30036222B /* Base */; };
 		7E3AD6E62C4F28E70036222B /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AD6E52C4F28E70036222B /* ViewControllerTests.swift */; };
+		7EEED3FC2C51E5000014D79D /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEED3FB2C51E5000014D79D /* TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		7E3AD6C22C4F20F30036222B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3AD6C72C4F20F40036222B /* TextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3AD6E52C4F28E70036222B /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		7EEED3FB2C51E5000014D79D /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				7E3AD6E52C4F28E70036222B /* ViewControllerTests.swift */,
+				7EEED3FB2C51E5000014D79D /* TestHelpers.swift */,
 			);
 			path = TextFieldTests;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E3AD6E62C4F28E70036222B /* ViewControllerTests.swift in Sources */,
+				7EEED3FC2C51E5000014D79D /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

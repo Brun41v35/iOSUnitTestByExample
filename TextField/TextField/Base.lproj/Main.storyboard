@@ -22,7 +22,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="upR-eH-iy3">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="next" textContentType="username"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="yes" returnKeyType="next" textContentType="username"/>
                                         <connections>
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="VS8-fu-EKK"/>
                                         </connections>
@@ -53,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1170" y="-11"/>
+            <point key="canvasLocation" x="-857" y="11"/>
         </scene>
     </scenes>
     <resources>
